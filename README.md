@@ -6,6 +6,8 @@
 
 在 [Releases](https://github.com/heimicalp/zizi-autodl-api-plugin/releases) 下载最新的 `autodl-shot-bridge-*.zip`。退出字字动画，解压安装包后，在 PowerShell 中运行：
 
+固定的更新元数据位于 [`latest.json`](latest.json)，包含版本号、下载地址和 ZIP 的 SHA256；后续版本发布时会同步更新。
+
 ```powershell
 .\Install.ps1 -AppRoot '你的字字动画安装目录' -Upgrade
 ```
