@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-rc.17",
+  "version": "1.0.0-rc.18",
   "channel": "prerelease",
-  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.17/autodl-shot-bridge-1.0.0-rc.17.zip",
-  "sha256": "c8c7bc387fb56c5e60ca7ec66f6f7d2c5777a815112f6928b4990e96b1be6478",
-  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.17",
+  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.18/autodl-shot-bridge-1.0.0-rc.18.zip",
+  "sha256": "1ef61269d116beb1391934520fc75c65a0f7d606f37b2c06715de20e465ddb45",
+  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.18",
   "minimum_zizi_version": "9.0.9",
-  "notes": "首个 GitHub 预发布包；真实宿主付费生成与第二台机器验收尚未完成。"
+  "notes": "新增插件内检查更新、下载并准备离线升级；关闭字字动画后运行 ApplyUpdate.cmd。真实付费生成与第二台机器验收尚未完成。"
 }
