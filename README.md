@@ -4,11 +4,11 @@
 
 ## 下载与更新
 
-在 [Releases](https://github.com/heimicalp/zizi-autodl-api-plugin/releases) 下载最新的 `autodl-shot-bridge-*.zip`。退出字字动画，解压安装包后，在 PowerShell 中运行：
+在 [Releases](https://github.com/heimicalp/zizi-autodl-api-plugin/releases) 下载最新的 `autodl-shot-bridge-*.zip`。
 
 固定的更新元数据位于 [`latest.json`](latest.json)，包含版本号、下载地址和 ZIP 的 SHA256；后续版本发布时会同步更新。
 
-从 RC20 起，可以在插件内点击“检查更新”再点击“下载并准备安装”。RC21 的按钮移到了令牌下方，并显示本机版本和安装状态。下载校验完成后正常退出字字动画，后台才会安装并重新打开软件。RC19 的后台启动存在兼容性问题，RC18 及更早版本没有更新按钮；这些版本需先按下述方式升级一次。
+RC22 起，在插件内点击“检查更新”与“下载并安装”；插件会在运行中校验并安装，确认“已安装”后自行退出、重开字字动画即可。生成任务运行期间会拒绝安装。RC20/RC21 的旧后台安装机制可能在软件退出时一起结束，导致只下载却没安装；仍停留在这些版本的用户需要用以下命令过渡升级一次。安装前先结束生成任务，并关闭字字动画：
 
 ```powershell
 .\Install.ps1 -AppRoot '你的字字动画安装目录' -Upgrade
