@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-rc.19",
+  "version": "1.0.0-rc.20",
   "channel": "prerelease",
-  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.19/autodl-shot-bridge-1.0.0-rc.19.zip",
-  "sha256": "429f2f3c4b078e842bdd0edb2fcfe32826814f5bd5249924aa4a5fd32b7b056c",
-  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.19",
+  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.20/autodl-shot-bridge-1.0.0-rc.20.zip",
+  "sha256": "333d6deac476c10597d39230111a784b23e48bd7f2f48c94354fa6e12c7984d2",
+  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.20",
   "minimum_zizi_version": "9.0.9",
-  "notes": "检查更新并下载后，退出字字动画；后台自动安装并重新打开。真实付费生成与第二台机器验收尚未完成。"
+  "notes": "修复后台进程启动并确认等待状态。下载后正常退出字字动画，自动安装并重新打开；真实付费生成与第二台机器验收尚未完成。"
 }
