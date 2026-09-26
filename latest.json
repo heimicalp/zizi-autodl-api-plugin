@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-rc.26",
+  "version": "1.0.0-rc.27",
   "channel": "prerelease",
-  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.26/autodl-shot-bridge-1.0.0-rc.26.zip",
-  "sha256": "551d964faaff6c1ca8ecbcd3476b72ba521547581d5e21c5ba8823e3ee56920c",
-  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.26",
+  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.27/autodl-shot-bridge-1.0.0-rc.27.zip",
+  "sha256": "9223afb19c50042eefaa86cf1a14036ee011ae46093d0239cbe1e29185849f71",
+  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.27",
   "minimum_zizi_version": "9.0.9",
-  "notes": "修复大图并发提交超时：同一令牌的素材上传按顺序提交，远端生成仍保持6并发；提交超时提高到180秒；同步 lightx2v 官方整数时长和种子参数。"
+  "notes": "修复大尺寸 PNG 参考图导致的提交超时和服务器拒绝：超过安全阈值时仅在内存中转为高质量 WebP，不修改本地原图；任务日志会显示服务器返回的安全错误码与原因。"
 }
