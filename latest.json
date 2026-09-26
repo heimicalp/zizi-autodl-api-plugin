@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0-rc.25",
+  "version": "1.0.0-rc.26",
   "channel": "prerelease",
-  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.25/autodl-shot-bridge-1.0.0-rc.25.zip",
-  "sha256": "b894b99a22f72d8d57ab1dae7fce6f877865230bb742f8a76a4fe053d6501b03",
-  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.25",
+  "download_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/download/v1.0.0-rc.26/autodl-shot-bridge-1.0.0-rc.26.zip",
+  "sha256": "551d964faaff6c1ca8ecbcd3476b72ba521547581d5e21c5ba8823e3ee56920c",
+  "release_url": "https://github.com/heimicalp/zizi-autodl-api-plugin/releases/tag/v1.0.0-rc.26",
   "minimum_zizi_version": "9.0.9",
-  "notes": "移除打开官网后的提示，并移除更新完成后主界面的成功状态行；更新窗口仍会显示安装结果。"
+  "notes": "修复大图并发提交超时：同一令牌的素材上传按顺序提交，远端生成仍保持6并发；提交超时提高到180秒；同步 lightx2v 官方整数时长和种子参数。"
 }
